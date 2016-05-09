@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Satvik Upadhyaya"
+title: "Buzzotel" 
+description: "Buzzotel is a revolutionary new service for independent hoteliers for end-to-end management of online business channels"
+keywords: "buzzotel, hotels, marketing, revenue management"
 favicon: "/img/favicon.ico"
 
 ################
@@ -55,15 +55,18 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Complete, end-to-end solution"
+  - text: "25% higher online sales, guaranteed"
+  - text: "Smooth, hassle free internet business"
 
 me-img: "/img/jetpacktocat.png"
 
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+##color-browser : "#000000"
+color-browser: "#b53513"
+#apple-status-bar-style: "black"
 apple-status-bar-style: "black"
 
 ################
