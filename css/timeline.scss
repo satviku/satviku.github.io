@@ -76,11 +76,11 @@
     width: 100px;
     height: 100px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
+    /*border: 7px solid #f1f1f1;*/
+    /*border-radius: 100%;*/
     text-align: center;
     color: #fff;
-    background-color: #f1f1f1;
+   /* background-color: #f1f1f1; */
 }
 
 .timeline>li .timeline-image h4 {
@@ -198,8 +198,11 @@
     }
 
     .img-me {
-        width: 200px;
-        height: 200px;
+    /*    width: 200px;
+        height: 200px; */
+        
+        width: 752;
+        height: 130;
     }
 
     .timeline>li .timeline-image h4 {
