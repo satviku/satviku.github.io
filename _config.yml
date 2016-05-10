@@ -36,7 +36,7 @@ favicon: "/img/favicon.png"
 ################
 
 #black-favicon: "/img/black-lab-glass.ico"
-black-favicon: "/img/favicon-black.png"
+##black-favicon: "/img/favicon-black.png"
 
 background-img: "../img/intro-bg.jpg"
 
@@ -52,7 +52,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 
-me-img: "/img/buzzotel-logo.png"
+##me-img: "/img/buzzotel-logo.png"
 
 lines: # You can add HTML Tags in the Text
   - text: "Complete, end-to-end solution"
