@@ -51,12 +51,15 @@ loop-count: False # Set False for infinite loop, or set any number for finite lo
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
+
+me-img: "/img/buzzotel-logo.png"
+
 lines: # You can add HTML Tags in the Text
   - text: "Complete, end-to-end solution"
   - text: "25% higher online sales, guaranteed"
   - text: "Smooth, hassle free internet business"
 
-me-img: "/img/jetpacktocat.png"
+
 
 ##############################
 # Color the browser elements #
