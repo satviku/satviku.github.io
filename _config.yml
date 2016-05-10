@@ -1,9 +1,4 @@
-
-# Site settings
-
-# NB! Set your site's url, otherwise stuff will break :)
-
-url: "https://satviku.github.io"
+# Site settings # NB! Set your site's url, otherwise stuff will break :) url: "https://satviku.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -33,15 +28,17 @@ author: "Satvik Upadhyaya"
 title: "Buzzotel" 
 description: "Buzzotel is a revolutionary new service for independent hoteliers for end-to-end management of online business channels"
 keywords: "buzzotel, hotels, marketing, revenue management"
-favicon: "/img/favicon.ico"
+##favicon: "/img/favicon.ico"
+favicon: "/img/favicon.png"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+#black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/favicon-black.png"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/intro-bg2.png"
 
 ##############################
 # Dynamic Text on the Header #
