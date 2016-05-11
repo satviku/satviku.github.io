@@ -39,23 +39,25 @@ favicon: "/img/favicon.png"
 ##black-favicon: "/img/favicon-black.png"
 
 background-img: "../img/intro-bg.jpg"
+####background-img: ""
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
 dynamic-typing: True
-shuffle: True # Shuffle the lines.
+shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 
-##me-img: "/img/buzzotel-logo.png"
+me-img: "/img/down.png"
 
 lines: # You can add HTML Tags in the Text
-  - text: "Complete, end-to-end solution"
+  - text: "<b>Guaranteed Growth</b>"
+  - text: "Complete, end-to-end service for hoteliers"
   - text: "25% higher online sales, guaranteed"
   - text: "Smooth, hassle free internet business"
 
@@ -127,7 +129,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+##email: "sales@buzzotel.com"
 
 ################
 # Author Blurb #
@@ -169,11 +171,22 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  About2: 'about2'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
+  Why Buzzotel: 'about'
+  Services: 'services'
+#  Our Success: 'faq'
   Contact: 'contact'
+##  about: 'about'
+##  About2: 'about2'
+##  Blog: 'latest-post'
+##  Timeline: 'timeline'
+##  Contact: 'contact'
+
+##Buzzotel: 'about'
+##Services: 'services'
+##FAQ: 'faq'
+##Contact: 'contact'
+
+
 
 # Exclusion list from the generated _site
 
