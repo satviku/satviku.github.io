@@ -13,7 +13,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $font-color;
     background-color: $primary-color;
 }
@@ -163,7 +163,7 @@ a {
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: url({{ site.background-img }}) no-repeat top center scroll;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -174,6 +174,8 @@ a {
         display: table-cell;
         vertical-align: middle;
         .brand-heading {
+            font-family: "Racing Sans One";
+            text-transform: none;
             font-size: 40px;
         }
         .intro-text {
@@ -188,6 +190,8 @@ a {
         padding: 0;
         .intro-body {
             .brand-heading {
+                font-family: "Racing Sans One";
+                text-transform: none;
                 font-size: 100px;
             }
             .intro-text {
@@ -445,3 +449,48 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+
+/* Style for arrow bounce - satvik*/
+
+
+.bounce:hover {
+	-webkit-animation: bounce 2s infinite;
+animation: bounce 2s infinite;
+}
+
+/* Scroll down indicator (bouncing) */
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		-webkit-transform: translateY(0); }
+	40% {
+		-webkit-transform: translateY(-30px); }
+	60% {
+		-webkit-transform: translateY(-15px); } }
+		@-moz-keyframes bounce {
+			0%, 20%, 50%, 80%, 100% {
+				-moz-transform: translateY(0); }
+			40% {
+				-moz-transform: translateY(-30px); }
+			60% {
+				-moz-transform: translateY(-15px); } }
+				@keyframes bounce {
+					0%, 20%, 50%, 80%, 100% {
+						-webkit-transform: translateY(0);
+						-moz-transform: translateY(0);
+						-ms-transform: translateY(0);
+						-o-transform: translateY(0);
+transform: translateY(0); }
+					40% {
+						-webkit-transform: translateY(-30px);
+						-moz-transform: translateY(-30px);
+						-ms-transform: translateY(-30px);
+						-o-transform: translateY(-30px);
+transform: translateY(-30px); }
+					60% {
+						-webkit-transform: translateY(-15px);
+						-moz-transform: translateY(-15px);
+						-ms-transform: translateY(-15px);
+						-o-transform: translateY(-15px);
+transform: translateY(-15px); } }
+
