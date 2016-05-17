@@ -14,7 +14,7 @@ body {
     width: 100%;
     height: 100%;
     font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: $font-color;
+    color: $font-bold-color; /* Changed from font-color -- sat*/
     background-color: $primary-color;
 }
 
@@ -34,6 +34,7 @@ h6 {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color: $font-color;
 }
 
 /* Added in { Personal } */
