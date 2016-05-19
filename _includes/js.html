@@ -145,12 +145,27 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 var mySubAbout = new Array(); //sat
  {% for sub in site.subabout %} //sat
-    myHeadings.push("{{ sub.text }}"); //sat
+    mySubAbout.push("{{ sub.text }}"); //sat
   {% endfor %} //sat
 
-    $(".heading-text").typed({
+    $(".sub-about").typed({
       strings: mySubAbout,
-      typeSpeed: {{ site.type-speed }},
+      typeSpeed: 30,
+      backDelay: {{ site.delete-delay }},
+      startDelay: {{ site.start-delay }},
+      loop: {{ site..loop }},
+      loopCount: {{ site.loop-count }},
+      cursorChar: "."
+    }); //sat
+
+var mySubServices = new Array(); //sat
+ {% for sub in site.subservices %} //sat
+    mySubServices.push("{{ sub.text }}"); //sat
+  {% endfor %} //sat
+
+    $(".sub-services").typed({
+      strings: mySubServices,
+      typeSpeed: 30,
       backDelay: {{ site.delete-delay }},
       startDelay: {{ site.start-delay }},
       loop: {{ site..loop }},

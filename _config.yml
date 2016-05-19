@@ -65,6 +65,11 @@ lines: # You can add HTML Tags in the Text
 
 subabout:
   - text: "Empower your online business"
+  - text: "Increase sales"
+
+subservices:
+  - text: "Free up resources to focus on guests and hotel operations"
+  - text: "Experienced team"
 
 ##############################
 # Color the browser elements #
