@@ -63,7 +63,8 @@ lines: # You can add HTML Tags in the Text
   - text: "25% higher online sales, guaranteed"
   - text: "Smooth, hassle free internet business"
 
-
+subabout:
+  - text: "Empower your online business"
 
 ##############################
 # Color the browser elements #

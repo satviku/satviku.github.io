@@ -143,19 +143,19 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
     shuffle(myQuotes)
   {% endif %}
 
-var myHeadings = new Array(); //sat
- {% for heading in site.myheadings %} //sat
-    myHeadings.push("{{ heading.text }}"); //sat
+var mySubAbout = new Array(); //sat
+ {% for sub in site.subabout %} //sat
+    myHeadings.push("{{ sub.text }}"); //sat
   {% endfor %} //sat
 
     $(".heading-text").typed({
-      strings: myQuotes,
+      strings: mySubAbout,
       typeSpeed: {{ site.type-speed }},
       backDelay: {{ site.delete-delay }},
       startDelay: {{ site.start-delay }},
       loop: {{ site..loop }},
       loopCount: {{ site.loop-count }},
-      cursorChar: "L"
+      cursorChar: "."
     }); //sat
 
     $(".intro-text").typed({
